@@ -1,7 +1,7 @@
 # Pull base image.
 FROM java:8
 
-ENV ES_PKG_NAME elasticsearch-1.5.2
+ENV ES_PKG_NAME elasticsearch-1.7.2
 
 # Install Elasticsearch.
 RUN \
